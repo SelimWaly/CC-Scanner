@@ -1,0 +1,6 @@
+[submodule "classical-ml"]
+	path = classical-ml
+	url = https://github.com/SelimWaly/cc-scanner-classical-ml
+[submodule "gnn-analytics"]
+	path = gnn-analytics
+	url = https://github.com/SelimWaly/cc-scanner-gnn-analytics
