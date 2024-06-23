@@ -1,0 +1,43 @@
+env:
+  num_node: 1
+  node_ips: #the first item in the ip list is the master ip, pls make sure that the ip doesn't contain space in the end
+    - localhost
+  tmp_path: /home
+  data_path: /home/data
+  config_path: /home/recommender-system-with-classical-ml/applications/fraud_detection
+
+
+data_preprocess:
+  input_data_path: graph/input
+  input_data_format: csv 
+  output_data_path: graph/output
+  output_data_format: csv
+  dp_config_file: data-preprocessing.yaml 
+  dp_framework: pandas 
+
+# training:
+#   input_data_path: graph/output
+#   input_data_format: csv 
+#   train_config_file: model-training.yaml
+#   train_framework: pandas # either pandas or spark
+#   test_backend: xgboost-native # either xgboost-native or xgboost-onedal
+#   ray_params: # based on you cluster env, choose appropriate numbers of num_actors and cpus_per_actor
+#     num_actors: 10
+#     cpus_per_actor: 15 
+#     elastic_training: True
+#     max_failed_actors: 2
+#     max_actor_restarts: 8
+
+# end2end_training:
+#   input_data_path: graph/input
+#   input_data_format: csv
+#   dp_config_file: data-preprocessing.yaml
+#   train_config_file: model-training.yaml
+#   framework: pandas 
+#   test_backend: xgboost-native 
+#   ray_params:
+#     num_actors: 10
+#     cpus_per_actor: 15 
+#     elastic_training: True
+#     max_failed_actors: 2
+#     max_actor_restarts: 8

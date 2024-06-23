@@ -1,0 +1,16 @@
+env:
+  num_node: 2
+  node_ips: #the first item in the ip list is the master ip, pls make sure that the ip doesn't contain space in the end
+    - 10.23.190.172
+    - 10.23.190.171
+  tmp_path: /localdisk/fanli
+  data_path: /data/fanli
+  config_path: /localdisk/fanli/project/applications.ai.appliedml.workflow.analyticswithpython/applications/fraud_detection
+
+data_preprocess:
+  input_data_path: 
+  input_data_format:  
+  output_data_path: 
+  output_data_format: 
+  dp_config_file: 
+  dp_framework: spark
