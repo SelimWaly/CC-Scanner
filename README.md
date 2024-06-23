@@ -1,4 +1,10 @@
+# CC-Scanner
+
 # Enhanced Fraud Detection using Graph Neural Networks
+
+---
+
+
 ## Introduction
 Learn to Boost fraud detection accuracy and developer efficiency through Intel's end-to-end, no-code, graph-neural-networks-boosted and multi-node distributed workflows.
 Check out more workflow examples and reference implementations in the [Developer Catalog](https://developer.intel.com/aireferenceimplementations).
