@@ -7,7 +7,7 @@
 
 ## Introduction
 Learn to Boost fraud detection accuracy and developer efficiency through Intel's end-to-end, no-code, graph-neural-networks-boosted and multi-node distributed workflows.
-Check out more workflow examples and reference implementations in the [Developer Catalog](https://developer.intel.com/aireferenceimplementations).
+Check out more workflow examples and reference implementations in the [Intel Developer Catalog](https://developer.intel.com/aireferenceimplementations).
 ## Solution Technical Overview
 Fraud detection has traditionally been tackled with classical machine learning algorithms such as gradient boosted machines. However, such supervised machine learning algorithms can lead to unsatisfactory precision and recall due to a few reasons:
 - Severe class imbalance: ratio of fraud to non-fraud transactions is extremely imbalanced with typical values less than 1% 
