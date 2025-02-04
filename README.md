@@ -4,8 +4,8 @@
 
 ---
 
-Learn to Boost fraud detection accuracy and developer efficiency through Intel's end-to-end, no-code, graph-neural-networks-boosted and multi-node distributed workflows.
-Check out more workflow examples and reference implementations in the [Intel Developer Catalog](https://developer.intel.com/aireferenceimplementations).
+Learn to Boost fraud detection accuracy and developer efficiency through end-to-end, no-code, graph-neural-networks-boosted and multi-node distributed workflows.
+
 ## Solution Technical Overview
 Fraud detection has traditionally been tackled with classical machine learning algorithms such as gradient boosted machines. However, such supervised machine learning algorithms can lead to unsatisfactory precision and recall due to a few reasons:
 - Severe class imbalance: ratio of fraud to non-fraud transactions is extremely imbalanced with typical values less than 1% 
@@ -13,7 +13,7 @@ Fraud detection has traditionally been tackled with classical machine learning a
 - Scale of data: credit card transaction datasets can have billions of transactions which require distributed preprocessing and training 
 - Latency of fraud detection: it is important to detect fraud quickly in order to minimize losses, thus highlighting the need for distributed inference <br />
 
-In Intel's Enhanced Fraud Detection reference kit, we employ Graph Neural Networks (GNN) popular for their ability to capture complex behavioral patterns (e.g., fraudsters performing multiple small transactions from different cards to not get caught). We also demonstrate a boost in accuracy by using GNN-boosted features over a baseline trained on traditional ML-only features. 
+In CC-Scanner, we employ Graph Neural Networks (GNN) popular for their ability to capture complex behavioral patterns (e.g., fraudsters performing multiple small transactions from different cards to not get caught). We also demonstrate a boost in accuracy by using GNN-boosted features over a baseline trained on traditional ML-only features. 
 To make sure that we don't trade efficiency for accuracy, we enable distributed pipelines. Generally, distributed pipelines take weeks for data scientists to set up and involve numerous technical challenges. Our reference kit allows you to easily benefit from distributed capabilities and enjoy our no-code config-driven user interface. Additionally, we also provide ways for you to customize our solution to your own usecases.
 
 ## Introduction
@@ -21,7 +21,6 @@ To make sure that we don't trade efficiency for accuracy, we enable distributed 
 - Significantly boost fraud classification accuracy by augmenting classical ML features with features generated through Graph Neural Networks (GNNs) 
 - Utilize our distributed preprocessing, training and inference pipelines to detect fraud quickly
 - Improve developer efficiency and experimentation with our no-code, config-driven user interface
-To learn more, visit the [CC-Scanner](https://github.com/SelimWaly/CC-Scanner) GitHub repository.
 ## Validated Hardware Details
 There are workflow-specific hardware and software setup requirements depending on
 how the workflow is run. Bare metal development system and Docker\* image running
